@@ -3,18 +3,18 @@ main = "src/index.ts"
 compatibility_date = "2024-12-30"
 compatibility_flags = [ "nodejs_compat" ]
 
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "blazenote"
-# database_id = "<DATABASE ID>"
-# migrations_dir = "./migrations"
+[[d1_databases]]
+binding = "DB"
+database_name = "blazenote"
+database_id = "b36836a4-9ca8-44d5-ad82-53627bfe9b1e"
+migrations_dir = "./migrations"
 
 # [ai]
 # binding = "AI"
 
 # [[r2_buckets]]
 # binding = "R2_BUCKET"
-# bucket_name = "blazenote"
+# bucket_name = "blazenote-backend"
 # preview_bucket_name = "dev-blazenote"
 
 [observability.logs]
